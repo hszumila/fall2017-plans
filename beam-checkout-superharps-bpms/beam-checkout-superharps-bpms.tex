@@ -1,0 +1,102 @@
+\documentclass[]{article}
+\begin{document}
+	
+\subsection{Beam Checkout with Superharps and Beam Position
+			Monitors}\label{beam-checkout-with-superharps-and-beam-position-monitors}
+	
+	\begin{itemize}
+		\item
+		Experts: Mark Jones
+		\item
+		Expected time: 3 hours
+		\item
+		Initial measurement of beam spot size. Followed by calibration of
+		girder BPMs
+		\item
+		Conditions:
+	\end{itemize}
+	
+	\begin{tabular}[]{|c|c|} \hline\hline
+		beam current: & 5 μA\\ \hline
+		fast raster: & off\\ \hline
+		target: & none\\ \hline
+	\end{tabular}
+	
+	\begin{itemize}
+		\item
+		Ask MCC to do superharp scan with superharps IHA3H07A and IHA3H07B and
+		put entry in ELOG. Record the 3 BPMs positions (3H07A,3H07B,3H07C)
+		during scan.
+		
+		\begin{itemize}
+			\item
+			Want beam spot with sigma\_x and sigma\_y below 200 um ( beam pass
+			1-4) and below 300 um for beam pass 5.
+			
+			\begin{itemize}
+				\item
+				If beam spot size is too large contact Run Coordinator to decide
+				how to proceed.
+				\item
+				If good beam spot size, then this will be first point in beam
+				alignment
+			\end{itemize}
+			\item
+			Determine the BPM offset from measure harp position
+			\item
+			Are X (Y) from IHA3H07A and IHA3H07B at zero within 300 um?
+			
+			\begin{itemize}
+				\item
+				If not ask MCC to center using the BPMs as relative guide.
+			\end{itemize}
+		\end{itemize}
+		\item
+		Calibrate Girder BPMs to the girder harps at 5uA
+		
+		\begin{itemize}
+			\item
+			Ask MCC to move the beam horizontally by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+			\item
+			Ask MCC to move the beam vertically by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+		\end{itemize}
+		\item
+		Calibrate Girder BPMs to the girder harps at 30uA
+		
+		\begin{itemize}
+			\item
+			Ask MCC to move the beam horizontally by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+			\item
+			Ask MCC to move the beam vertically by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+		\end{itemize}
+		\item
+		Calibrate Girder BPMs to the girder harps at 60uA
+		
+		\begin{itemize}
+			\item
+			Ask MCC to move the beam horizontally by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+			\item
+			Ask MCC to move the beam vertically by ±2 mm, and record at each
+			setting both superharps and the three BPM's, both from MEDM/TCL and
+			from the data stream after short runs.
+		\end{itemize}
+		\item
+		Check raster size use harp at 10uA
+		
+		\begin{itemize}
+			\item
+			Take harp scans with a fast raster with varying size, say 2 by 2, 3
+			by 3, and 4 by 4 mm2.
+		\end{itemize}
+	\end{itemize}
+\end{document}
